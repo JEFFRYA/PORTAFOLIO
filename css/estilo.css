@@ -1,0 +1,45 @@
+body {
+    background-color: #eee;
+}
+
+#nombre {
+    width: 100%;
+    text-align: left;
+    border-bottom: solid 3px black;
+    margin-bottom: 1em;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+#ubicacion, #correo, #telefono, #redes-sociales {
+    width: 100%;
+    text-align: right;
+}
+
+#logo-email, #logo-ubicacion, #logo-celular {
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+
+.icono-redes-sociales {
+    width: 28px;
+    height: 28px;
+}
+
+#foto-perfil {
+    width: 80px;
+    height: 80px;
+    float: left;
+    border-radius: 90px;
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.flexbox-left {
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
